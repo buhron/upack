@@ -25,9 +25,11 @@ OPTIONS:
 crospack update - get all package info and put from Release file (name, version, etc.)
 crospack install [PACKAGE/ZIP FILE] [FLAGS] - install package(s) either from package repo(s) or zip archive
 crospack upgrade [FLAGS] - upgrade package(s) from package repo(s)
-crospack config [FLAGS] - configure crospack settings located in $CROSPACK_ROOT/etc/crospack
-crospack download  [FLAGS] - download zip archive of package
-crospack list [FILTER] - list all packages 
+crospack config, crospack options, crospack settings [FLAGS] - configure crospack settings located in $CROSPACK_ROOT/etc/crospack
+crospack download  [FLAGS] - download zip archive of package(s)
+crospack list [FILTER] - list all packages
+crospack help, crospack - display this help screen
+crospack repo [REPOOPTIONS]- add or remove repo
 FLAGS:
 --cli, -c - use cli to configure crospack settings (OPTIONS supported: config)
 --install-bare - Install bare package without installing dependencies (unrecommended) (OPTIONS supported: install)
@@ -35,12 +37,15 @@ FLAGS:
 --path, -p - Install package into specified path other then $CROSPACK_ROOT (OPTIONS supported: install)
 --allow-all-zip - Allow any zip archive to be installed regardless if unverified from repo (OPTIONS supported: config)
 --package - Only update specified package (OPTIONS supported: upgrade)
+--installedfromzip - list all packages that was installed from a zip archive (OPTIONS supported: list)
+--installedfromaddedrepo - list all packages that was installed from a repo other then the default one (OPTIONS supported: list)
+--unknownauthor - list all packages with an unknown author (OPTIONS supported: list)
+--deps - list all installed packages that are dependencies from another package (OPTIONS supported: list)
+REPOOPTIONS:
+add - add a repo with the specified repo link
+del, remove - remove a repo with the specified repo link
 FILTERS:
 installed - list all installed packages
 need2update - list all packages that have a update pending
-unknownauthor - list all packages with an unknown author
-installedfromzip - list all packages that was installed from a zip archive
-installedfromaddedrepo - list all packages that was installed from a repo other then the default one
 repos - list all repos that crospack uses to install and update packages
-deps - list all installed packages that are dependencies from another package
 ```
