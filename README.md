@@ -30,7 +30,6 @@ crospack config, crospack options, crospack settings [FLAGS] - configure crospac
 crospack download  [FLAGS] - download zip archive of package(s)
 crospack list [FILTER] - list all packages
 crospack help, crospack - display this help screen
-crospack repo [REPOOPTIONS]- add or remove repo
 FLAGS:
 --cli, -c - use cli to configure crospack settings (OPTIONS supported: config)
 --install-bare - Install bare package without installing dependencies (unrecommended) (OPTIONS supported: install)
@@ -42,9 +41,6 @@ FLAGS:
 --installedfromaddedrepo - list all packages that was installed from a repo other then the default one (OPTIONS supported: list)
 --unknownauthor - list all packages with an unknown author (OPTIONS supported: list)
 --deps - list all installed packages that are dependencies from another package (OPTIONS supported: list)
-REPOOPTIONS:
-add - add a repo with the specified repo link
-del, remove - remove a repo with the specified repo link
 FILTERS:
 installed - list all installed packages
 need2update - list all packages that have a update pending
