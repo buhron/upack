@@ -1,8 +1,9 @@
 # crospack
-Crospack is an package manager for ChromeOS (but can be installed on Linux and macOS via some script modifications).
+Crospack is an package manager designed for ChromeOS (but can be installed on Linux and macOS via some script modifications).
 ## Installation (and removal)
 **Installation**<br>
-To install crospack, go to VT-2 (Ctrl+Alt+Forward(F2)) and type:
+To install crospack, first enable Developer Mode on your Chromebook (if you are using one)
+* Go to VT-2 (Ctrl+Alt+Forward(F2)) (or terminal on Linux/macOS) and type:
 (This doesn't work yet)
 ```sh
 sudo bash <(curl -L https://github.com/buhron/crospack/raw/refs/heads/beta/installers/install-x86_64.sh)
