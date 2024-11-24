@@ -19,6 +19,7 @@ crospack and the packages installed using crospack will be stored at `/usr/share
 If you want to remove crospack, simply open a command line and run: `rm -rf $CROSPACK_ROOT` (You may need root previleges based on where you installed crospack, if you installed crospack normally via the command above, you can safely run this command as the script had `chown`ed the installation directory so user can install via crosh.
 
 ## Help
+**crospack**
 ```
 USAGE: crospack [OPTIONS] [FLAGS]/[FILTER]
 OPTIONS:
@@ -44,4 +45,8 @@ FILTERS:
 installed - list all installed packages
 need2update - list all packages that have a update pending
 repos - list all repos that crospack uses to install and update packages
+```
+**crospack-add-repo**
+```
+crospack-add-repo: specify a repo link
 ```
