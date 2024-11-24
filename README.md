@@ -12,7 +12,7 @@ Crospack and the packages installed using crospack will be stored at `/usr/share
 
 **Manual Installation (custom)**<br>
 * Get installation archive: Zip archives of crospack will be available in Releases if you want to install crospack to another folder (ex. `/home/chronos/user/.crospack`)
-* Note: Remember that when installing crospack, you will need to set the $CROSPACK_ROOT, $PATH, and $LD_LIBRARY_PATH environment variables to or else crospack won't work.
+* Note: Remember that when installing crospack, you will need to set the `$CROSPACK_ROOT`, `$PATH`, and `$LD_LIBRARY_PATH` environment variables to or else crospack won't work.
   
 **Removal**<br>
 
