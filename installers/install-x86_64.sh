@@ -1,2 +1,3 @@
 clear
-printf "Crospack is not available yet.\n Follow the github repo to check when available!"
+printf "Crospack is not available yet.
+Follow the github repo to check when available!"
