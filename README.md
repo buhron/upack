@@ -1,5 +1,7 @@
 # crospack
 Crospack is an package manager designed for ChromeOS (but can be installed on Linux and macOS via script modifications or manual installation).
+## Installers and source code          
+Installers and source code are currently only available in the beta branch.
 ## Installation (and removal)
 **Installation**<br>
 To install crospack, first enable Developer Mode on your Chromebook (if you are using one)
