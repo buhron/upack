@@ -48,7 +48,4 @@ installed - list all installed packages
 need2update - list all packages that have a update pending
 repos - list all repos that crospack uses to install and update packages
 ```
-**crospack-add-repo**
-```
-crospack-add-repo: specify a repo link
-```
+
