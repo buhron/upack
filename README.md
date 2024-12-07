@@ -7,14 +7,15 @@ Installers and source code are currently only available in the beta branch.
 To install crospack, first enable Developer Mode on your Chromebook ([tutorial](https://www.chromium.org/chromium-os/developer-library/guides/device/developer-mode/)) (if you are using one)
 * Go to VT-2 (Ctrl+Alt+Forward (where F2 would be)) (or terminal on Linux/macOS), login as `chronos` (if you are using VT-2) and enter your developer password, and type:
 (This doesn't work yet)
-```sh
+```bash
 curl https://github.com/buhron/crospack/raw/refs/heads/beta/installers/install-x86_64.sh | sudo bash
 ```
 Crospack and the packages installed using crospack will be stored at `/opt/crospack/` if script above is used.<br>
 
 **Manual Installation (custom)**<br>
 * Get installation archive: Zip archives of crospack will be available in Releases if you want to install crospack to another folder (ex. `/home/chronos/user/.crospack`)
-* Note: Remember that when installing crospack, you will need to set the `$CROSPACK_ROOT`, `$PATH`, and `$LD_LIBRARY_PATH` environment variables to or else crospack won't work.
+* Note: Remember that when installing crospack, you will need to set the `$CROSPACK_ROOT`, `$PATH`, and `$LD_LIBRARY_PATH` environment variables to or else crospack won't work.​​​
+​​​​​ 
   <br>
 ​​​
 **Removal**<br>
