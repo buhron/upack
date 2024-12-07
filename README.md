@@ -22,3 +22,6 @@ If you want to remove crospack, simply open a command line and run: `rm -rf $CRO
 
 ## Help
 Crospack has a docs site at [here](https://buhron.github.io/crospack/doc/welcome/). You can also ask in the Issues tab for help.<br>
+
+## Contributions
+Anyone can contribute to this project! As long as your contribution makes sense and is mindful, I will accept your PR/Feature Request!
