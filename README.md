@@ -14,9 +14,9 @@ crospack and the packages installed using crospack will be stored at `/usr/share
 
 **Manual Installation (custom)**<br>
 * Get installation archive: Zip archives of crospack will be available in Releases if you want to install crospack to another folder (ex. `/home/chronos/user/.crospack`)
-* Note: Remember that when installing crospack, you will need to set the `$CROSPACK_ROOT`, `$PATH`, and `$LD_LIBRARY_PATH` environment variables to or else crospack won't work.
+* Note: Remember that when installing crospack, you will need to set the `$CROSPACK_ROOT`, `$PATH`, and `$LD_LIBRARY_PATH` environment variables to or else crospack won't work.<br>
 **Docs and more**<br>
-Crospack has a docs site at [here](https://buhron.github.io/crospack/doc/welcome/)
+Crospack has a docs site at [here](https://buhron.github.io/crospack/doc/welcome/)z<br>
 **Removal**<br>
 
 If you want to remove crospack, simply open a command line and run: `rm -rf $CROSPACK_ROOT` (You may need root previleges based on where you installed crospack, if you installed crospack normally via the command above, you can safely run this command as the script had `chown`ed the installation directory so user can install via crosh.
