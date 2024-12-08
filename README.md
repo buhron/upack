@@ -6,9 +6,9 @@ Installers and source code are currently only available in the beta branch.
 **Installation**<br>
 To install crospack, first enable Developer Mode on your Chromebook ([tutorial](https://www.chromium.org/chromium-os/developer-library/guides/device/developer-mode/)) (if you are using one)
 * Go to VT-2 (Ctrl+Alt+Forward (where F2 would be)) (or terminal on Linux/macOS), login as `chronos` (if you are using VT-2) and enter your developer password, and type:
-(This doesn't work yet)
+(Replace 'arch' with your CPU architecture (run `uname -m` in the shell to see))
 ```bash
-curl https://buhron.github.io/crospack/installers/<(uname -m)/install.sh | sudo bash
+curl https://buhron.github.io/crospack/installers/arch/install.sh | sudo bash
 ```
 Crospack and the packages installed using crospack will be stored at `/opt/crospack/` if script above is used.<br>
 
