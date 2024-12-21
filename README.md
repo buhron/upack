@@ -6,11 +6,12 @@ Installers and source code are currently only available in the beta branch.
 
 ### Installation
 You will need to run this following command in a terminal session:
+
 ```bash
 curl https://buhron.github.io/crospack/installers/**arch**/install.sh | sudo -s
 ```
 
-**Note**: upack and the packages installed using crospack will (by default) be stored at `/opt/upack/` if script above is used.<br>
+**Note**: upack and the packages installed using crospack will (by default) be stored at `/opt/upack/` if script above is used (or whatever `$UPACK_PREFIX` is set to).
 
 ​​​### Removal
 If you want to remove crospack, simply open a command line and run: `upack remove upack` (You may need root previleges based on where you installed crospack, if you installed crospack normally via the command above, you can safely run this command as the script had `chown`ed the installation directory.)
