@@ -13,7 +13,14 @@ curl https://buhron.github.io/upack/installers/**arch**/install.sh | sudo -s
 
 ​​
 If you want to remove upack, simply open a command line and run: `upack remove upack`. This will remove all packages installed with upack.
-
+# Build fron source
+This section is for people who don't want to run a single command just to run upack. Here are build directions:
+```sh
+git clone https://github.com/buhron/upack
+cd upack
+make
+sudo make install
+```
 ## Help
 Crospack has a docs site at [here](https://buhron.github.io/upack/doc/welcome/). You can also ask in the Issues tab for help.<br>
 
