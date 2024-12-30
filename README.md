@@ -22,7 +22,7 @@ make
 sudo make install
 ```
 ## Help
-Crospack has a docs site at [here](https://buhron.github.io/upack/doc/welcome/). You can also ask in the Issues tab for help.<br>
+Crospack has a docs site at [here](https://buhron.github.io/upack-doc/). You can also ask in the Issues tab for help.<br>
 
 ## Contributions
 Anyone can contribute to this project! As long as your contribution makes sense and is mindful, I will accept your PR/Feature Request!
