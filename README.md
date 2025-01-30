@@ -3,10 +3,10 @@ upack is an [open-source](https://github.com/buhron/upack/#) package manager des
 ## Installers and source code          
 Installers and source code are currently only available in the beta branch.
 ## Installation (and removal)
-You will need to run this following command in a terminal session, replacing **arch** with your actual architecture (run `uname -m`):
+You will need to run this following command in a terminal session:
 
 ```bash
-curl https://buhron.github.io/upack/installers/**arch**/install.sh | sudo $SHELL
+curl https://buhron.github.io/upack/installers/install.sh | sudo $SHELL
 ```
 
 **Note**: upack and the packages installed using crospack will (by default) be stored at `/opt/upack/` if script above is used (or whatever `$UPACK_PREFIX` is set to).
