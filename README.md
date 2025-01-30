@@ -23,6 +23,8 @@ sudo make install
 ```
 ## Help
 Crospack has a docs site at [here](https://buhron.github.io/upack-doc/). You can also ask in the Issues tab for help.<br>
-
+## Questions
+Do I have experience with C (what this project uses)?
+> Answer: No...
 ## Contributions
 Anyone can contribute to this project! As long as your contribution makes sense and is mindful, I will accept your PR/Feature Request!
