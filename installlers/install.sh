@@ -3,8 +3,8 @@ export UPACK_PREFIX=/opt/upack
 echo "Warning: upack is in development phase and may not work properly"
 # set environment variables
 echo "Setting environment variables..."
-echo "export PATH=$PATH:$UPACK_PREFIX/bin" >> ~/."$SHELL"rc
-echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$UPACK_PREFIX/lib:$UPACK_PREFIX/lib64" >> ~/."$SHELL"rc
+echo "export PATH=$PATH:$UPACK_PREFIX/bin" >> ~/.bashrc
+echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$UPACK_PREFIX/lib:$UPACK_PREFIX/lib64" >> ~/.bashrc
 mkdir $UPACK_PREFIX
 # Fetch the non-existent bootstrap archives...
 echo "Downloading bootstrap archive..."
