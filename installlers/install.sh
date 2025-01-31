@@ -10,7 +10,7 @@ mkdir $UPACK_PREFIX
 echo "Downloading bootstrap archive..."
 curl https://buhron.github.io/upack-pkgs/pkgs/bootstrap/bootstrap-1.0.0-$(uname -m).zip -#L -o /tmp/upack/bootstrap.zip
 # long command to extract bootstrap and delete all the upack-package specific stuff that comes with it
-cd $UPACK_PREFIX; unzip /tmp/upack/bootstrap.zip > /dev/null; rm $UPACK_PREFIX/upack.cfg; cp -r $UPACK_PREFIX/data/* $UPACK_PREFIX; rm -rf $UPACK_PREFIX/data
+cd $UPACK_PREFIX; unzip /tmp/upack/bootstrap.zip > /dev/null 2>&1; rm $UPACK_PREFIX/upack.cfg > /dev/null 2>&1; cp -r $UPACK_PREFIX/data/* $UPACK_PREFIX; rm -rf $UPACK_PREFIX/data
 # is upack installed? if yes, great! youre ready!
 which upack > /dev/null 2>&1
 # chmod 777 the upack directory because everyone deserves a chance to isntall upack packages :)
