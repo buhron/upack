@@ -4,8 +4,8 @@
 #include <curl/curl.h>
 #include <json-c/json.h>
 #include <zip.h>
-int download() {
-    printf("i forgot a semicolon and all my code fell apart :/\n");
+int download(void) {
+    printf("Segmentation fault (core dumped)\n");
     return 1;
 }
 int main(int action, char *args[]) {
