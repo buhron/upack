@@ -18,7 +18,7 @@ chmod 777 -R $UPACK_PREFIX
 # Post-installation messages
 if [ $? = "0" ]; then
  printf '[✅] Upack successfully installed!\n'
-elif [ $? = "130"]; then
+elif [ $? = "130" ]; then
  printf '[❌] Upack installation was interrupted by user.\n'
 else
  printf '[❌] Upack failed to install. There may be a log above to see what happened\n'
