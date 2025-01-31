@@ -1,5 +1,6 @@
 #!/bin/bash
-echo "Upack installer is not ready for the world, and you..."; exit 1
+export UPACK_PREFIX=/opt/upack
+echo "Warning: upack is in development phase and may not work properly"
 # set environment variables
 echo "Setting environment variables..."
 export PATH=$PATH:$UPACK_PREFIX/bin 
