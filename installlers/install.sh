@@ -7,8 +7,8 @@ echo "export PATH=$PATH:$UPACK_PREFIX/bin" >> ~/.bashrc
 echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$UPACK_PREFIX/lib:$UPACK_PREFIX/lib64" >> ~/.bashrc
 mkdir $UPACK_PREFIX
 # Fetch the non-existent bootstrap archives...
-echo "Downloading bootstrap archive..."
-curl https://buhron.github.io/upack-pkgs/pkgs/bootstrap/bootstrap-1.0.0-$(uname -m).zip -#L -o /tmp/upack/bootstrap.zip
+echo "Downloading upack archive..."
+curl https://buhron.github.io/upack-pkgs/pkgs/upack/upack-1.0.0-$(uname -m).zip -#L -o /tmp/upack/bootstrap.zip
 # long command to extract bootstrap and delete all the upack-package specific stuff that comes with it
 echo "Extracting bootstrap archive..."
 cd $UPACK_PREFIX; unzip /tmp/upack/bootstrap.zip > /dev/null 2>&1; rm $UPACK_PREFIX/upack.cfg > /dev/null 2>&1; cp -r $UPACK_PREFIX/data/* $UPACK_PREFIX; rm -rf $UPACK_PREFIX/data
