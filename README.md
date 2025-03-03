@@ -9,7 +9,7 @@ You will need to run this following command in a terminal session:
 curl -# https://buhron.github.io/upack/installlers/install.sh | sudo /bin/bash
 ```
 
-**Note**: upack and the packages installed using crospack will (by default) be stored at `/opt/upack/` if script above is used (or whatever `$UPACK_PREFIX` is set to).
+**Note**: upack and the packages installed using upack will (by default) be stored at `/opt/upack/` if script above is used (or whatever `$UPACK_PREFIX` is set to).
 
 ​​
 If you want to remove upack, simply open a command line and run: `upack remove upack`. This will remove all packages installed with upack.
