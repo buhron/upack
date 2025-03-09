@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include <curl/curl.h>
 #include <json-c/json.h>
 #include <lz4.h>
 /* int help() {
     printf('c hates me');
-    return 0;
+    return 1;
 }; */
 int main(int action, char *args[]) {
     CURL *curl;
