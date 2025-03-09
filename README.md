@@ -14,9 +14,8 @@ curl -# https://buhron.github.io/upack/installlers/install.sh | sudo /bin/bash
 ​​
 If you want to remove upack, simply open a command line and run: `upack remove upack`. This will remove all packages installed with upack.
 ## Build fron source (WIP)
-**Note**: Building upack from source will install upack to `/usr` and may cause conflicts with existing packages on your system. Either install upack to another directory or disable filesystem conflicts (non-existent in the upackiverse)
+**Note**: Building upack from source will install upack to `/usr` and may cause conflicts with existing packages on your system. Use at your own risk.
 <br/><br>
-
 This section is for people who don't want to run a single command just to run upack. Here are build directions:
 ```sh
 git clone https://github.com/buhron/upack
