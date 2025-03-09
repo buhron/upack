@@ -1,4 +1,4 @@
 all: build
 build:
-    echo "Upack building is in progress"
-    exit 0
+	@echo 'Nothing to do for build.'
+	@exit 0

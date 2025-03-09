@@ -5,7 +5,7 @@ echo "Warning: upack is in development phase and may not work properly"
 echo "Setting environment variables..."
 echo "export PATH=$PATH:$UPACK_PREFIX/bin" >> ~/.bashrc
 echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$UPACK_PREFIX/lib:$UPACK_PREFIX/lib64" >> ~/.bashrc
-mkdir $UPACK_PREFIX
+mkdir $UPACK_PREFIX -p
 # Fetch the non-existent bootstrap archives...
 echo "Downloading upack archive..."
 curl https://buhron.github.io/upack-pkgs/pkgs/upack/upack-1.0.0-$(uname -m).zip -#L -o $TMPDIR/upack/bootstrap.zip
