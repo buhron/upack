@@ -1,2 +1,3 @@
 [workspace]
-members = ["upack_client", "upacklib"]
+members = ["upack", "upack-repo", "upacklib"]
+resolver = "3"

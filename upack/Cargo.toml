@@ -1,5 +1,5 @@
 [package]
-name = "upack_client"
+name = "upack"
 description = "uPack is the primary package manager for ArcaneOS, however it can be installed on any Linux distro."
 version = "0.1.0"
 edition = "2024"
@@ -9,3 +9,4 @@ homepage = "https://buhron.github.io/upack"
 repository = "https://github.com/buhron/upack"
 [dependencies]
 upacklib = { version = "0.1.0", path = "../upacklib" }
+serde_json = "1.0"
