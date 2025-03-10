@@ -1,11 +1,2 @@
-[package]
-name = "upack"
-description = "uPack is the primary package manager for ArcaneOS, however it can be installed on any Linux distro."
-version = "0.1.0"
-edition = "2024"
-authors = ["buhron"]
-readme = "README.md"
-homepage = "https://buhron.github.io/upack"
-repository = "https://github.com/buhron/upack"
-[dependencies]
-upacklib = { version = "0.1.0", path = "upacklib" }
+[workspace]
+members = ["upack_client", "upacklib"]

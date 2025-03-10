@@ -3,7 +3,7 @@
 version = 4
 
 [[package]]
-name = "upack_client"
+name = "upack"
 version = "0.1.0"
 dependencies = [
  "upacklib",

@@ -2,5 +2,7 @@
 name = "upacklib"
 version = "0.1.0"
 edition = "2024"
-
+[lib]
+name = "upacklib"
+path = "src/main.rs"
 [dependencies]
